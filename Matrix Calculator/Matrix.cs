@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 
 namespace Matrix_Calculator {
-    internal class Matrix {
+     class Matrix {
         public double[,] MainMatrix { get; set; }
         public int Rows { get;  set; }
         public int Cols { get;  set; }
@@ -31,10 +31,10 @@ namespace Matrix_Calculator {
             Cols = MainMatrix.GetLength(1);
         }
 
-        public bool IsSquare() {
+        private bool IsSquare() {
             return (Rows == Cols);
         }
-        public bool IsSquare(double[,]matrix) {
+        private bool IsSquare(double[,]matrix) {
             return (matrix.GetLength(0) == matrix.GetLength(1));
         }
         public double MaxValue() {
@@ -101,9 +101,7 @@ namespace Matrix_Calculator {
         private double[,] ReadMatrix(string matrixStr) {
             string[] lines = matrixStr.Trim().Split('\n');
             string[] rows = Regex.Replace(lines[0], @" +", @" ").Trim().Split(' ', '\t');
-            //MatrixEditor.MatrixChecker(lines);
-            //MatrixEditor.MatrixChecker(rows);
-
+            
             double[,] matrix = new double[lines.Length, rows.Length];
             for (int i = 0; i < lines.Length; i++) {
                 rows = Regex.Replace(lines[i], @" +", @" ").Trim().Split(' ', '\t');

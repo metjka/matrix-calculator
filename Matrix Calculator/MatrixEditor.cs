@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 namespace Matrix_Calculator {
-    internal class MatrixEditor {
+     class MatrixEditor {
 
 
         public static double[,] Multiplication(double[,] matrixA, double[,] matrixB) {
@@ -74,14 +74,7 @@ namespace Matrix_Calculator {
             }
             return matrixC;
         }
-        public static void MatrixChecker(string[] line) {
-            for (int i = 1; i < line.GetLength(0); i++) {
-                if (line[0].Length != line[i].Length) {
-                    throw new Exception("ERROR: Wrong matrix!!!");
-                }
-            }
-
-        }
+        
     }
        
     
