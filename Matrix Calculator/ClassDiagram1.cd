@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Matrix_Calculator.Matrix">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAZAkAACABAAEgEAAAAAIAAAEAAQBAAAAAgAAgAAAA=</HashCode>
+      <FileName>Matrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix_Calculator.MatrixEditor" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAAAAAAAAAAAAAAAAAABAAAAAAgABAAAAAAAAAAA=</HashCode>
+      <FileName>MatrixEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix_Calculator.MatrixForm">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BTgAAKABACQAwBBnQACAwIHDDMw75NThGCBcfDhwMSE=</HashCode>
+      <FileName>MatrixForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
