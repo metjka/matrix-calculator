@@ -93,6 +93,7 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textBox1.Size = new System.Drawing.Size(242, 161);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "2 5 7\r\n6 3 4\r\n5 -2 -3";
@@ -604,6 +605,7 @@
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textBox2.Size = new System.Drawing.Size(234, 160);
             this.textBox2.TabIndex = 0;
             this.textBox2.Text = "1 2 3\r\n4 4 6\r\n9 2 6";
@@ -705,7 +707,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Moccasin;
-            this.ClientSize = new System.Drawing.Size(1079, 669);
+            this.ClientSize = new System.Drawing.Size(1075, 665);
             this.Controls.Add(this.button34);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox2);
