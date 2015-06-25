@@ -114,7 +114,7 @@
             this.groupBox1.Size = new System.Drawing.Size(258, 239);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "MainMatrix A";
+            this.groupBox1.Text = "Matrix A";
             // 
             // button35
             // 
@@ -557,7 +557,7 @@
             this.groupBox2.Size = new System.Drawing.Size(250, 239);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "MainMatrix B";
+            this.groupBox2.Text = "Matrix B";
             // 
             // button3
             // 
