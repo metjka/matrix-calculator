@@ -49,7 +49,7 @@ namespace Matrix_Calculator {
             return C;
         }
         public static double[,] Addition(double[,] matrixA, double[,]matrixB) {
-            if (matrixA.GetLength(0) != matrixB.GetLength(0) & matrixA.GetLength(1) != matrixB.GetLength(1)) {
+            if (matrixA.GetLength(0) != matrixB.GetLength(0) | matrixA.GetLength(1) != matrixB.GetLength(1)) {
                 throw new Exception("ERROR!!! Can`t summarize these matrices!!!");
             }
             double[,] matrixC = new double[matrixA.GetLength(0), matrixA.GetLength(0)];
